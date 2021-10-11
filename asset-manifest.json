@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Myportfolio/static/css/main.98254603.chunk.css",
-    "main.js": "/Myportfolio/static/js/main.b4fde319.chunk.js",
-    "main.js.map": "/Myportfolio/static/js/main.b4fde319.chunk.js.map",
-    "runtime-main.js": "/Myportfolio/static/js/runtime-main.77a39664.js",
-    "runtime-main.js.map": "/Myportfolio/static/js/runtime-main.77a39664.js.map",
-    "static/js/2.e20af026.chunk.js": "/Myportfolio/static/js/2.e20af026.chunk.js",
-    "static/js/2.e20af026.chunk.js.map": "/Myportfolio/static/js/2.e20af026.chunk.js.map",
-    "static/js/3.4ab87bcf.chunk.js": "/Myportfolio/static/js/3.4ab87bcf.chunk.js",
-    "static/js/3.4ab87bcf.chunk.js.map": "/Myportfolio/static/js/3.4ab87bcf.chunk.js.map",
+    "main.css": "/Myportfolio/static/css/main.b94592c4.chunk.css",
+    "main.js": "/Myportfolio/static/js/main.ed24c16b.chunk.js",
+    "main.js.map": "/Myportfolio/static/js/main.ed24c16b.chunk.js.map",
+    "runtime-main.js": "/Myportfolio/static/js/runtime-main.1fdf43db.js",
+    "runtime-main.js.map": "/Myportfolio/static/js/runtime-main.1fdf43db.js.map",
+    "static/js/2.1df12835.chunk.js": "/Myportfolio/static/js/2.1df12835.chunk.js",
+    "static/js/2.1df12835.chunk.js.map": "/Myportfolio/static/js/2.1df12835.chunk.js.map",
+    "static/js/3.51e2b194.chunk.js": "/Myportfolio/static/js/3.51e2b194.chunk.js",
+    "static/js/3.51e2b194.chunk.js.map": "/Myportfolio/static/js/3.51e2b194.chunk.js.map",
     "index.html": "/Myportfolio/index.html",
-    "static/css/main.98254603.chunk.css.map": "/Myportfolio/static/css/main.98254603.chunk.css.map",
-    "static/js/2.e20af026.chunk.js.LICENSE.txt": "/Myportfolio/static/js/2.e20af026.chunk.js.LICENSE.txt"
+    "static/css/main.b94592c4.chunk.css.map": "/Myportfolio/static/css/main.b94592c4.chunk.css.map",
+    "static/js/2.1df12835.chunk.js.LICENSE.txt": "/Myportfolio/static/js/2.1df12835.chunk.js.LICENSE.txt",
+    "static/media/chillies.54f79a78.png": "/Myportfolio/static/media/chillies.54f79a78.png",
+    "static/media/circle-cropped.cc825cc5.png": "/Myportfolio/static/media/circle-cropped.cc825cc5.png",
+    "static/media/mountain.b19dbf26.png": "/Myportfolio/static/media/mountain.b19dbf26.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.77a39664.js",
-    "static/js/2.e20af026.chunk.js",
-    "static/css/main.98254603.chunk.css",
-    "static/js/main.b4fde319.chunk.js"
+    "static/js/runtime-main.1fdf43db.js",
+    "static/js/2.1df12835.chunk.js",
+    "static/css/main.b94592c4.chunk.css",
+    "static/js/main.ed24c16b.chunk.js"
   ]
 }
