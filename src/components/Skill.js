@@ -4,6 +4,7 @@ import data from '../data';
 export default function Skill(props) {
     return (
         <div className="card1" >
+
             {data.Skills.map((Skills) => (
                 <div key={Skills._id} className="card">
                     <div>
@@ -19,6 +20,7 @@ export default function Skill(props) {
                     </div>
                 </div>
             ))}
+
         </div>
     );
 }

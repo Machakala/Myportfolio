@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './components/ThemeContext';
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
+    <HashRouter>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

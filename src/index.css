@@ -4,6 +4,7 @@ code {
 }
 body {
   margin: 0;
+  padding: 0;
   height: 100vh;
   text-align: center;
   font-size: 1rem;
@@ -28,10 +29,13 @@ body {
 header {
   grid-area: header;
   background-color: #203040;
+  padding: 0;
 }
 main {
   grid-area: main;
-  padding: 1rem;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 footer {
   grid-area: footer;
@@ -185,7 +189,9 @@ hr {
   color: white;
 }
 .profile{
-  background-color: white;
+  background-color: #E4F9F5;
+  padding: 0;
+  margin: 0;
 }
 .intro {
   width: 30%;
@@ -194,17 +200,23 @@ hr {
 
 /*whatidoscreen*/
 .WhatIDo{
-  background-color: #E4F9F5;
+  padding: 0; 
+  margin: 0%;
+  background-color: white;
+  height: max-content;
 }
 .WhatIDo-dark{
   background-color: black;
   color: white;
+  height: 45rem;
+
 }
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   height: 200px;
+  
 }
 .computer {
   width: 25%;
@@ -232,7 +244,7 @@ hr {
 
 /*skillsscreen*/
 .skills{
-  background-color: #E4F9F5;
+  background-color: white;
 }
 .card-image{
   max-width: 50%;
@@ -242,14 +254,20 @@ hr {
   background-color: black;
 }
 /*contactscreen*/
+.contact{
+  height: 35rem;
+}
 .bottom-container {
   background-color:white;
   padding: 50px 0 20px;
+  height: 35rem;
+
 }
 .bottom-container-dark {
   background-color:black;
   color: white;
   padding: 50px 0 20px;
+    height: 35rem;
 }
 .contact-me {
   width: 100%;
@@ -260,9 +278,10 @@ hr {
 .bottom-container2{
   background-color: #444e4e;
   padding: 30px;
+  margin-top: 0%;
 }
 .bottom-container2-dark{
-  background-color: darkgray;
+  background-color: dark;
   padding: 30px;
 }
 
@@ -283,6 +302,35 @@ hr {
       transform: rotate(0);
       padding-top: 20px;
   }
+  
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: fit-content;
+  min-height: fit-content;
+  width: fit-content;
+}
+.card {
+  display: grid;
+  flex-wrap: wrap;
+  max-height: fit-content;
+  min-height: fit-content;
+  width: 40rem;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card-body {
+  background-color: white;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;  
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  max-height: fit-content;
+  min-height: fit-content;
+  width: fit-content;
+}
 }
 button  {
   width: fit-content;
